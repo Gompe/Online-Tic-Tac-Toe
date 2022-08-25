@@ -3,14 +3,15 @@
 
 ### Compilation:
 
-> make
-> make clean
+`$ make`
+
+`$ make clean`
 
 ### Use 
 
 #### Server
 
-> ./server PORT
+`$ ./server PORT`
 
 This will start a server at the specified PORT number.
 
@@ -31,11 +32,11 @@ When the game is over, it will send the outcome to both players with a message o
 
 #### Client
 
-> ./client IP_ADDRESS PORT
+`$ ./client IP_ADDRESS PORT $`
 
 Connects to a server in the specified (IP_ADDRESS, PORT) location. To establish connection, send the following through the terminal:
 
-> TXT Hello
+`$ TXT Hello `
 
 Any other string other than "Hello" will not cause connection.
 
@@ -45,10 +46,10 @@ After two clients connect, the game will start and there will be the following m
 
 To make a move at a specific row and a specific column, write 
 
-> MOV col row
+`$ MOV col row`
 
 For example, 
 
-> MOV 1 2
+`$ MOV 1 2`
 
 When the game is over, the outcome will be printed to the terminal and the program will finish its execution.
