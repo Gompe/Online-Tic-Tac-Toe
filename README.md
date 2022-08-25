@@ -1,4 +1,4 @@
-#Tic-Tac-Toe
+# Tic-Tac-Toe
 ## How to use
 
 ### Compilation:
